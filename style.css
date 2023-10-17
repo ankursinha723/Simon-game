@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1, h4 {
+    line-height: 1.2rem;
+}
+
+h2 {
+    margin: -1rem 0 0.7rem;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 5px solid black;
+    border-radius: 1rem;
+    width: 6.9rem;
+    height: 6.9rem;
+    margin: 1rem 0.6rem;
+}
+
+.green {
+    background-color: #A7D397;
+}
+
+.red {
+    background-color: #FF8080;
+}
+
+.yellow {
+    background-color: #FFCD4B;
+}
+
+.blue {
+    background-color: #5272F2;
+}
+
+.gameFlash {
+    background-color: white;
+}
+
+.userFlash {
+    opacity: 0.6;
+}
